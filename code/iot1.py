@@ -112,7 +112,7 @@ print("End signing at %s. Time taken %s " %(end, timeTaken))
 #save output to files to be ploted later.
 if(OZKS == False):
     write_data_to_file(timeTakenList, "timeDelayFromZKS")
-else
+else:
     write_data_to_file(timeTakenList, "timeDelayFromZKS_XOR_RANDOM")
 
 
