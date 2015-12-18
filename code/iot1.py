@@ -64,7 +64,7 @@ def sign_data(temp, r_array):
 	#This computes r2_mod_n from r_array
 	r2_mod_n = [(i ** 2) % n for i in r_array]		
 
-    rethash=compute_hash(temp, ts, r2_mod_n)	#compute hash.
+        rethash=compute_hash(temp, ts, r2_mod_n)	#compute hash.
 
 	for i in range(0, len(rethash)):
 		bit = rethash[i]
